@@ -14,6 +14,17 @@ Ensure you have [msu](https://github.com/GochoMugo/msu) installed:
 $ msu install gh:GochoMugo/transfer
 ```
 
+You will need to restart your terminal for the `transfer` command to be available.
+
+
+## running:
+
+Show usage information:
+
+```bash
+$ transfer
+```
+
 
 ## license:
 
