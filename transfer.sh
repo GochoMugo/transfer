@@ -19,7 +19,7 @@ function transfer() {
   if [ $# -eq 0 ]
   then
     echo " No arguments specified."
-    echo -e " Usage:\n\techo transfer /tmp/test.md\n\tcat /tmp/test.md | transfer test.md"
+    echo -e " Usage:\n\ttransfer /tmp/test.md\n\tcat /tmp/test.md | transfer test.md"
     return 1
   fi
 
