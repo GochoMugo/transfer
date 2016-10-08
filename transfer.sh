@@ -56,7 +56,7 @@ function transfer() {
   fi
 
   # cat output link
-  cat "$tmpfile"
+  success "$(cat "$tmpfile")"
 
   # cleanup
   rm -f "$tmpfile"
